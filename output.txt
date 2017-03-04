@@ -1,0 +1,380 @@
+>>> i.exact_query("KASHMIR BRITISH", 25)
+Text-184.txt
+Text-63.txt
+Text-7.txt
+Text-346.txt
+Text-36.txt
+Text-10.txt
+Text-254.txt
+Text-61.txt
+Text-109.txt
+Text-247.txt
+Text-133.txt
+Text-85.txt
+Text-339.txt
+Text-117.txt
+Text-409.txt
+Text-9.txt
+Text-240.txt
+Text-54.txt
+Text-303.txt
+Text-310.txt
+Text-204.txt
+Text-144.txt
+Text-68.txt
+Text-167.txt
+Text-46.txt
+--- Time taken to process the query is 0.004002571105957031 seconds ---
+>>> i.inexact_query_champion("KASHMIR BRITISH", 25)
+Text-184.txt
+Text-63.txt
+Text-7.txt
+Text-346.txt
+Text-10.txt
+Text-254.txt
+Text-61.txt
+Text-247.txt
+Text-339.txt
+Text-117.txt
+Text-9.txt
+Text-240.txt
+Text-54.txt
+Text-204.txt
+Text-297.txt
+Text-293.txt
+Text-1.txt
+Text-340.txt
+Text-403.txt
+Text-110.txt
+Text-301.txt
+Text-155.txt
+Text-253.txt
+Text-188.txt
+Text-32.txt
+--- Time taken to process the query is 0.013823986053466797 seconds ---
+>>> i.inexact_query_index_elimination("KASHMIR BRITISH", 25)
+Text-184.txt
+Text-63.txt
+Text-7.txt
+Text-346.txt
+--- Time taken to process the query is 0.002003192901611328 seconds ---
+>>> i.inexact_query_cluster_pruning("KASHMIR BRITISH", 25)
+Text-184.txt
+Text-7.txt
+Text-346.txt
+Text-46.txt
+--- Time taken to process the query is 0.002001047134399414 seconds ---
+
+
+
+>>> i.exact_query("A GOVERNMENT POLICEMAN HAPPENED IN ON THE PROCEEDINGS AND REPORTED", 25)
+Text-143.txt
+Text-213.txt
+Text-256.txt
+Text-141.txt
+Text-183.txt
+Text-69.txt
+Text-16.txt
+Text-333.txt
+Text-224.txt
+Text-83.txt
+Text-119.txt
+Text-11.txt
+Text-91.txt
+Text-103.txt
+Text-416.txt
+Text-154.txt
+Text-52.txt
+Text-130.txt
+Text-364.txt
+Text-34.txt
+Text-273.txt
+Text-216.txt
+Text-122.txt
+Text-360.txt
+Text-115.txt
+--- Time taken to process the query is 0.016013622283935547 seconds ---
+>>> i.inexact_query_champion("A GOVERNMENT POLICEMAN HAPPENED IN ON THE PROCEEDINGS AND REPORTED",25)
+Text-143.txt
+Text-213.txt
+Text-256.txt
+Text-183.txt
+Text-141.txt
+Text-69.txt
+Text-16.txt
+Text-333.txt
+Text-83.txt
+Text-224.txt
+Text-11.txt
+Text-119.txt
+Text-91.txt
+Text-103.txt
+Text-416.txt
+Text-154.txt
+Text-52.txt
+Text-130.txt
+Text-216.txt
+Text-273.txt
+Text-34.txt
+Text-360.txt
+Text-122.txt
+Text-115.txt
+Text-23.txt
+--- Time taken to process the query is 0.011011600494384766 seconds ---
+>>> i.inexact_query_index_elimination("A GOVERNMENT POLICEMAN HAPPENED IN ON THE PROCEEDINGS AND REPORTED", 25)
+Text-143.txt
+--- Time taken to process the query is 0.0 seconds ---
+>>> i.inexact_query_cluster_pruning("A GOVERNMENT POLICEMAN HAPPENED IN ON THE PROCEEDINGS AND REPORTED",25)
+Text-325.txt
+Text-189.txt
+Text-387.txt
+Text-81.txt
+Text-101.txt
+--- Time taken to process the query is 0.0020017623901367188 seconds ---
+
+
+
+
+>>> i.exact_query("PEKING KREMLIN MOSCOW", 25)
+Text-111.txt
+Text-216.txt
+Text-385.txt
+Text-353.txt
+Text-296.txt
+Text-275.txt
+Text-104.txt
+Text-401.txt
+Text-289.txt
+Text-145.txt
+Text-96.txt
+Text-307.txt
+Text-279.txt
+Text-161.txt
+Text-290.txt
+Text-186.txt
+Text-363.txt
+Text-374.txt
+Text-123.txt
+Text-416.txt
+Text-417.txt
+Text-315.txt
+Text-295.txt
+Text-18.txt
+Text-21.txt
+--- Time taken to process the query is 0.014816761016845703 seconds ---
+>>> i.inexact_query_champion("PEKING KREMLIN MOSCOW",25)
+Text-296.txt
+Text-385.txt
+Text-216.txt
+Text-275.txt
+Text-104.txt
+Text-289.txt
+Text-145.txt
+Text-307.txt
+Text-279.txt
+Text-353.txt
+Text-290.txt
+Text-363.txt
+Text-111.txt
+Text-416.txt
+Text-315.txt
+Text-161.txt
+Text-295.txt
+Text-186.txt
+Text-18.txt
+Text-15.txt
+Text-374.txt
+Text-411.txt
+Text-306.txt
+Text-401.txt
+Text-8.txt
+--- Time taken to process the query is 0.01501011848449707 seconds ---
+>>> i.inexact_query_index_elimination("PEKING KREMLIN MOSCOW", 25)
+Text-363.txt
+Text-111.txt
+Text-385.txt
+Text-353.txt
+Text-216.txt
+Text-296.txt
+Text-18.txt
+Text-374.txt
+Text-104.txt
+Text-275.txt
+Text-411.txt
+Text-8.txt
+Text-417.txt
+Text-289.txt
+Text-279.txt
+Text-307.txt
+Text-19.txt
+Text-31.txt
+Text-401.txt
+Text-346.txt
+Text-96.txt
+Text-199.txt
+Text-145.txt
+Text-315.txt
+Text-290.txt
+--- Time taken to process the query is 0.015010356903076172 seconds ---
+>>> i.inexact_query_cluster_pruning("PEKING KREMLIN MOSCOW",25)
+Text-385.txt
+Text-353.txt
+Text-104.txt
+Text-401.txt
+Text-307.txt
+Text-279.txt
+Text-363.txt
+Text-417.txt
+Text-18.txt
+Text-8.txt
+Text-31.txt
+Text-199.txt
+--- Time taken to process the query is 0.005570411682128906 seconds ---
+
+
+
+>>> i.exact_query("PULSATING WEEK CHINA LAST", 25)
+Text-222.txt
+Text-180.txt
+Text-363.txt
+Text-8.txt
+Text-31.txt
+Text-346.txt
+Text-385.txt
+Text-420.txt
+Text-199.txt
+Text-374.txt
+Text-18.txt
+Text-411.txt
+Text-19.txt
+Text-46.txt
+Text-401.txt
+Text-244.txt
+Text-341.txt
+Text-63.txt
+Text-77.txt
+Text-315.txt
+Text-216.txt
+Text-384.txt
+Text-15.txt
+Text-104.txt
+Text-350.txt
+--- Time taken to process the query is 0.015541553497314453 seconds ---
+>>> i.inexact_query_champion("PULSATING WEEK CHINA LAST",25)
+Text-180.txt
+Text-222.txt
+Text-363.txt
+Text-8.txt
+Text-31.txt
+Text-346.txt
+Text-385.txt
+Text-199.txt
+Text-374.txt
+Text-18.txt
+Text-411.txt
+Text-19.txt
+Text-401.txt
+Text-244.txt
+Text-341.txt
+Text-315.txt
+Text-384.txt
+Text-296.txt
+Text-275.txt
+Text-352.txt
+Text-289.txt
+Text-280.txt
+Text-7.txt
+Text-155.txt
+Text-290.txt
+--- Time taken to process the query is 0.015543460845947266 seconds ---
+>>> i.inexact_query_index_elimination("PULSATING WEEK CHINA LAST", 25)
+Text-180.txt
+Text-222.txt
+--- Time taken to process the query is 0.0 seconds ---
+>>> i.inexact_query_cluster_pruning("PULSATING WEEK CHINA LAST",25)
+Text-363.txt
+Text-8.txt
+Text-31.txt
+Text-385.txt
+Text-199.txt
+Text-18.txt
+Text-401.txt
+Text-104.txt
+Text-417.txt
+Text-279.txt
+Text-307.txt
+Text-317.txt
+Text-234.txt
+Text-209.txt
+Text-159.txt
+Text-412.txt
+Text-353.txt
+--- Time taken to process the query is 0.015543937683105469 seconds ---
+
+
+
+>>> i.exact_query("COMMUNISM SCHISM GRAVEST MOSCOW", 25)
+Text-289.txt
+Text-279.txt
+Text-332.txt
+Text-341.txt
+Text-290.txt
+Text-295.txt
+Text-146.txt
+Text-269.txt
+Text-265.txt
+Text-81.txt
+Text-60.txt
+Text-113.txt
+Text-190.txt
+Text-327.txt
+Text-345.txt
+Text-221.txt
+Text-172.txt
+Text-189.txt
+Text-72.txt
+Text-415.txt
+Text-111.txt
+Text-187.txt
+Text-353.txt
+Text-220.txt
+Text-310.txt
+--- Time taken to process the query is 0.015543460845947266 seconds ---
+>>> i.inexact_query_champion("COMMUNISM SCHISM GRAVEST MOSCOW",25)
+Text-289.txt
+Text-279.txt
+Text-332.txt
+Text-290.txt
+Text-295.txt
+Text-341.txt
+Text-269.txt
+Text-265.txt
+Text-81.txt
+Text-60.txt
+Text-345.txt
+Text-221.txt
+Text-189.txt
+Text-146.txt
+Text-72.txt
+Text-415.txt
+Text-353.txt
+Text-310.txt
+Text-196.txt
+Text-145.txt
+Text-7.txt
+Text-360.txt
+Text-95.txt
+Text-343.txt
+Text-327.txt
+--- Time taken to process the query is 0.022051095962524414 seconds ---
+>>> i.inexact_query_index_elimination("COMMUNISM SCHISM GRAVEST MOSCOW", 25)
+Text-289.txt
+Text-279.txt
+--- Time taken to process the query is 0.0 seconds ---
+>>> i.inexact_query_cluster_pruning("COMMUNISM SCHISM GRAVEST MOSCOW",25)
+Text-279.txt
+Text-190.txt
+Text-332.txt
+Text-187.txt
+Text-265.txt
+--- Time taken to process the query is 0.001099287033081055 seconds ---
